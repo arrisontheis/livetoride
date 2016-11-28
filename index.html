@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Live to Ride 2.0</title>
+
+    <!-- FOLHAS DE ESTILO -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/full-slider.css">
+    <!-- FONTES -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700|Roboto" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="img/logo.jpg">
+          </a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-left">
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modelos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Custom</a></li>
+            <li><a href="#">Naked</a></li>
+            <li><a href="#">On/Off Road</a></li>
+            <li><a href="#">Street</a></li>
+            <li><a href="#">Super Esportiva</a></li>
+          </ul>
+        </li>
+          <li><a href="#">Lojas</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">LOG IN</a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-shopping-cart text-red"></i> CARRINHO</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- SLIDER -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/diavel4.jpg');"></div>
+
+                <div class="carousel-caption">
+                  <h1>Ducati Diavel</h1>
+                  <h4>O design incrível, com o inovador farol de LED, e o conforto de pilotagem da nova Diavel , mas a força bruta do motor Testastretta e a pilotagem surpreendente mostram outro lado da moto.</h4>
+                  <p><a class="btn btn-lg btn-danger" href="#" role="button">Saiba Mais</a></p>
+                </div>
+                
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/panigale.jpg');"></div>
+                <div class="carousel-caption">
+                  <h1>Ducati Panigale 1299</h1>
+                  <h4>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <h4><a class="btn btn-lg btn-danger" href="#" role="button">Saiba Mais</a></p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/moto3.jpg');"></div>
+
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <h4>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <h4><a class="btn btn-lg btn-danger" href="#" role="button">Saiba Mais</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <section id="modelos">
+      <div class="container">
+        <div class="col-lg-6">
+          <h2>Produtos Apresentados</h2>
+        </div>
+        <div class="col-lg-6">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Pesquisar Modelos...">
+            </div>
+            <button type="submit" class="btn btn-danger">Pesquisar</button>
+          </form>
+        </div>
+
+        <div class="col-lg-12">
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/mt09.png">
+              <div class="caption">
+                <h3>Yamaha MT-09</h3>
+                <p class="text-muted">Lorem ipsum lorem ipsum</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 37.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/r3-2.png">
+              <div class="caption">
+                <h3>Yamaha R3</h3>
+                <p class="text-muted">Lorem ipsum lorem ipsum</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 21.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/rc390-2.png">
+              <div class="caption">
+                <h3>KTM RC 390</h3>
+                <p class="text-muted">Lorem ipsum lorem ipsum</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 24.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/repsol-2.png">
+              <div class="caption">
+                <h3>CBR1000R</h3>
+                <p class="text-muted">Honda CBR1000RR Repsol</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 37.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/f800.png">
+              <div class="caption">
+                <h3>BMW F800</h3>
+                <p class="text-muted">BMW F800GS Adventure</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 47.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/r1m.png">
+              <div class="caption">
+                <h3>Yamaha R1-M</h3>
+                <p class="text-muted">Lorem ipsum lorem ipsum</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 63.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/r6.png">
+              <div class="caption">
+                <h3>Yamaha R6</h3>
+                <p class="text-muted">Lorem ipsum lorem ipsum</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 37.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="thumbnail text-center">
+              <img class="img-responsive" src="img/1299.png">
+              <div class="caption">
+                <h3>Panigale 1299</h3>
+                <p class="text-muted">Ducati Panigale 1299</p>
+                <p> <a href="#" class="btn btn-default disabled" role="button">R$ 64.990</a> <a title="Saber Mais" href="#" class="btn btn-default" role="button"><i class="glyphicon glyphicon-plus"></i> </a> <a title="Adicionar ao Carrinho" href="#" class="btn btn-danger" role="button"><i class="glyphicon glyphicon-shopping-cart"></i> </a></p>
+              </div>
+            </div>
+          </div>
+
+
+          <p class="text-center"><button class="btn btn-danger">Veja Mais <i class="glyphicon glyphicon-plus"></i></button></p>
+        </div><!-- ./col-lg-12 -->
+
+      </div><!-- ./container dos produtos -->
+    </section>
+
+    <section id="seila" class="text-white text-center">
+      <div class="container">
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at elit felis. Suspendisse molestie, ante vel eleifend elementum, nunc lacus tincidunt ligula, et congue orci lacus eu lacus. Mauris odio ligula, egestas eget tellus vitae, ultricies scelerisque erat. Nunc hendrerit cursus vulputate. Sed tortor risus, malesuada ut lacus ut, vulputate posuere nibh. Maecenas feugiat lacinia odio, eget rutrum mi aliquet non. Nunc sagittis vel justo vitae commodo. Morbi urna purus, vehicula a placerat aliquam, finibus sed odio. Integer gravida aliquam auctor.</p>
+      </div>
+    </section>
+
+    <iframe width="100%" height="515" class="embed-responsive-item" src="https://www.youtube.com/embed/ZjR8mfky4x8" frameborder="0" allowfullscreen></iframe>
+
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Newsletter. <small>Receba notícias sobre novos modelos em seu e-mail!</small></h1>
+        
+        <div class="text-center">
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="seuemail@email.com">
+              <button class="btn btn-danger"><i class="glyphicon glyphicon-share-alt"></i> Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="rodape" class="text-center" >
+      <div class="container-fluid">
+        <div class="col-lg-12">
+          <div class="col-lg-4">
+            <h3 class="text-muted">Lorem ipsum</h3>
+            <ul>
+              <li><a href="#"> Link 1</a></li>
+              <li><a href="#"> Link 2</a></li>
+              <li><a href="#"> Link 3</a></li>
+              <li><a href="#"> Link 4</a></li>
+            </ul>
+          </div><!--/col-lg-4 -->
+
+          <div class="col-lg-4">
+            <h3 class="text-muted">Lorem ipsum</h3>
+            <ul>
+              <li><a href="#"> Link 1</a></li>
+              <li><a href="#"> Link 2</a></li>
+              <li><a href="#"> Link 3</a></li>
+              <li><a href="#"> Link 4</a></li>
+            </ul>
+          </div><!--/col-lg-4 -->
+
+          <div class="col-lg-4">
+            <h3 class="text-muted">Lorem ipsum</h3>
+            <ul>
+              <li><a href="#"> Link 1</a></li>
+              <li><a href="#"> Link 2</a></li>
+              <li><a href="#"> Link 3</a></li>
+              <li><a href="#"> Link 4</a></li>
+            </ul>
+          </div><!--/col-lg-4 -->
+        </div><!-- /col-lg-12 -->
+      </div><!-- /col-lg-12-->
+    </footer>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
