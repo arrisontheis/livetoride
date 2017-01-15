@@ -1,7 +1,7 @@
 body
 {
-	font-family: 'Orbitron', sans-serif;
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Orbitron', sans-serif; */
+ 	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -12,7 +12,7 @@ body
 .text-orange{color: #FFA500;}
 .text-justify{text-align: justify;}
 
-ul,h1,h2,h3{font-family: 'Orbitron', sans-serif;}
+
 ul{list-style: none;}
 a{color: #d9534f;}
 
@@ -96,6 +96,7 @@ a{color: #d9534f;}
 	background-color: #d9534f;
 	height: 100% auto;
 }
+	#seila h1{font-family: 'Roboto', sans-serif;}
 
 #newsletter
 {
@@ -139,6 +140,31 @@ a{color: #d9534f;}
 }
 
 	#parallax h1 {color: #FFA500;}
+
+
+/* ESTILIZAÇAO PAGINA DESCRIÇAO */
+#topo-descricao{
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  
+  background: url(../img/triple.jpg);
+  background-position: center;
+}
+
+.bg-black
+{
+	background-color: #111;
+	color: #fff;
+	padding: 1px;
+}
+
+
+
+
+
+
 
 
 
